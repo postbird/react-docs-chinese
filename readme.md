@@ -6,6 +6,8 @@
 
 - [01-jsx-in-depth][1]
 - [02-typechecking-with-proptypes][2]
+- [03-refs-and-the-dom][3]
+
 
 #  
 
@@ -15,3 +17,4 @@
 
 [1]: ./01-jsx-in-depth.md
 [2]: ./02-typechecking-with-proptypes.md
+[3]: ./03-refs-and-the-dom.md
