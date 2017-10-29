@@ -1,6 +1,6 @@
 # JSX In Depth
 
-> 原文地址：https://reactjs.org/docs/jsx-in-depth.html
+> 英文文档：[https://reactjs.org/docs/jsx-in-depth.html][7]
 
 本质上，JSX只是`React.createElement(component, props, ...children)`的语法糖，比如下面代码：
 ```html
@@ -494,3 +494,4 @@ function ListOfTenThings() {
 [4]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015
 [5]: https://developer.mozilla.org/en-US/docs/Glossary/Falsy
 [6]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#String_conversion
+[7]: https://reactjs.org/docs/jsx-in-depth.html
