@@ -1,6 +1,6 @@
 # JSX In Depth
 
-> 英文文档：[https://reactjs.org/docs/jsx-in-depth.html][7]
+- 英文文档：[https://reactjs.org/docs/jsx-in-depth.html][7]
 
 本质上，JSX只是`React.createElement(component, props, ...children)`的语法糖，比如下面代码：
 ```html

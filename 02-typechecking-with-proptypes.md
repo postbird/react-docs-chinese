@@ -1,5 +1,7 @@
 # Typechecking With PropTypes
 
+- 英文文档：[https://reactjs.org/docs/typechecking-with-proptypes.html][4]
+
 >**注意** ： `React.PropTypes`从`React v15.5`开始迁移到不同的包中，请使用`prop-types`库。我们提供一个[`codemod`脚本][1]来自动化转换
 
 随着应用的增长，你可以通过**类型检查**来捕获大量的bug。
@@ -170,3 +172,4 @@ ReactDOM.render(
 [1]: https://reactjs.org/blog/2017/04/07/react-v15.5.0.html#migrating-from-react.proptypes
 [2]: https://flowtype.org/
 [3]: https://www.typescriptlang.org/
+[4]: https://reactjs.org/docs/typechecking-with-proptypes.html
