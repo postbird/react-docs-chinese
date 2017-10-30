@@ -9,6 +9,7 @@
 - [03-refs-and-the-dom][3]
 - [04-uncontrolled-components][4]
 - [05-optimizing-performance][5]
+- [06-react-without-es6][6]
 
 ---- 
 
@@ -24,3 +25,4 @@
 [3]: ./03-refs-and-the-dom.md
 [4]: ./04-uncontrolled-components.md
 [5]: ./05-optimizing-performance.md
+[6]: ./06-react-without-es6.md
