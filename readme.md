@@ -8,8 +8,9 @@
 - [02-typechecking-with-proptypes][2]
 - [03-refs-and-the-dom][3]
 - [04-uncontrolled-components][4]
+- [05-optimizing-performance][5]
 
-#  
+---- 
 
 > 个人水平有限，仅在个人理解的基础上进行翻译。如有任何问题，希望指出。
 
@@ -22,3 +23,4 @@
 [2]: ./02-typechecking-with-proptypes.md
 [3]: ./03-refs-and-the-dom.md
 [4]: ./04-uncontrolled-components.md
+[5]: ./05-optimizing-performance.md
