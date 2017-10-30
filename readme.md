@@ -7,7 +7,7 @@
 - [01-jsx-in-depth][1]
 - [02-typechecking-with-proptypes][2]
 - [03-refs-and-the-dom][3]
-
+- [04-uncontrolled-components][4]
 
 #  
 
@@ -15,6 +15,10 @@
 
 > 任何博客及类似内容转载，希望注明出处，谢谢。
 
+> [Postbird - http://www.ptbird.cn][100]
+
+[100]: http://www.ptbird.cn
 [1]: ./01-jsx-in-depth.md
 [2]: ./02-typechecking-with-proptypes.md
 [3]: ./03-refs-and-the-dom.md
+[4]: ./04-uncontrolled-components.md
