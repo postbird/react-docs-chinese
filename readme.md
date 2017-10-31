@@ -14,6 +14,8 @@
 - [08 - Reconciliation][8]
 - [09 - Context][9]
 - [10 - Protals][10]
+- [11 - Error boundaries][11]
+- [12 - Web Components][12]
 ---- 
 
 ## 声明：
@@ -37,3 +39,5 @@
 [8]: ./08-reconciliation.md
 [9]: ./09-context.md
 [10]: ./10-protals.md
+[11]: ./11-error-boundaries.md
+[12]: ./12-web-components.md
