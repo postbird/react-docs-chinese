@@ -16,6 +16,7 @@
 - [10 - Protals][10]
 - [11 - Error boundaries][11]
 - [12 - Web Components][12]
+- [13 - Higher-Order Components][13]
 ---- 
 
 ## 声明：
@@ -41,3 +42,4 @@
 [10]: ./10-protals.md
 [11]: ./11-error-boundaries.md
 [12]: ./12-web-components.md
+[13]: ./13-higher-order-components.md
