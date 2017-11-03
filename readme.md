@@ -1,6 +1,6 @@
-# React ADVANCED GUIDES 翻译
+# React V16 中文文档
 
-文档翻译主要针对 React最新文档的高级指南的内容翻译，用于加深理解。
+文档翻译主要针对 React V16 最新文档的内容翻译，用于加深理解。
 
 ## Wiki：
 
