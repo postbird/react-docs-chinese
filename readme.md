@@ -2,8 +2,15 @@
 
 文档翻译主要针对 React最新文档的高级指南的内容翻译，用于加深理解。
 
+## Wiki：
+
+阅读请使用 Wiki：
+
+- [https://github.com/postbird/react-docs-chinese/wiki/](https://github.com/postbird/react-docs-chinese/wiki/)
+
 ## 目录：
 
+### 高级指南部分：
 - [01 - JSX in depth][1]
 - [02 - Typechecking with proptypes][2]
 - [03 - Refs　and　the dom][3]

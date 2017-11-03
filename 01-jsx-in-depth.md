@@ -39,16 +39,14 @@ React.createElement(
 
 ----
 
-<span id="specifying-the-react-element-type"></span>
-# [指定React的元素类型](#specifying-the-react-element-type)
+# [指定React的元素类型]
 
 JSX标签的第一部分明确了React元素的类型。
 
 使用大写的JSX标签来表示React的一个组件。这些标签编译成对命名变量的直接的引用，所以，如果使用JSX标签`<Foo />`表达式，则`Foo`必须在作用域内。（译者注：必须引入组件）
 
-<span id="react-must-be-in-scope"></span>
 
-## [作用域内必须引入React](#react-must-be-in-scope)
+## [作用域内必须引入React]
 
 由于JSX会被编译成`React.createElement`,因此在JSX的代码中，必须引入`React`库。
 
@@ -66,8 +64,7 @@ function WarningButton() {
 
 如果使用`<script>`标签加载React，而不是使用模块化加载，React也是在作用域内的，此时React是全局作用域中。
 
-<span id="using-dot-notation-for-jsx-type"></span>
-## [JSX使用点(`.`)操作符](#using-dot-notation-for-jsx-type)
+## [JSX使用点(`.`)操作符]
 
 在JSX中可以使用点(`.`)操作符使用React组件，如果通过一个模块导出多个React组件的话，使用点操作符非常的使用和方便。
 
@@ -86,8 +83,7 @@ function BlueDatePicker() {
   return <MyComponents.DatePicker color="blue" />;
 }
 ```
-<span id="user-defined-components-must-be-capitalized"></span>
-## [自定义组件必须大写](#user-defined-components-must-be-capitalized)
+## [自定义组件必须大写]
 
 
 如果定义的组件使用小写开头，他会把`<div>`,`<span>`这样的内置组件作为`div`和`span`字符串传递给`React.createElement`。
@@ -129,9 +125,8 @@ function HelloWorld() {
   return <Hello toWhat="World" />;
 }
 ```
-<span id="choosing-the-type-at-runtime"></span>
 
-## [在运行的时候选择组件](#choosing-the-type-at-runtime)
+## [在运行的时候选择组件]
 
 不能使用通用表达式来作为React的元素类型，如果你想使用一个通用表达式来指明元素类型，首先需要将其赋值给大写的变量。
 
@@ -173,8 +168,7 @@ function Story(props) {
 
 ----
 
-<span id="props-in-jsx"></span>
-# [JSX中的Props](#props-in-jsx)
+# [JSX中的Props]
 
 在JSX中指定props有几种不同的方式。
 
@@ -199,8 +193,7 @@ function NumberDescriber(props) {
 
 你可以在[条件渲染][2]和[循环][3]部分了解更多。
 
-<span id="string-literals"></span>
-## [字符串文本](#string-literals)
+## [字符串文本]
 
 你可以将字符串文本作为prop,下面两个JSX表达式是等价的：
 
@@ -220,9 +213,7 @@ function NumberDescriber(props) {
 
 不过两者没直接的什么关系，只是提一下。
 
-<span id="props-default-to-true"></span>
-## [Prop的默认值是`True`](#props-default-to-true)
-
+## [Prop的默认值是`True`]
 如果没有给prop指定值，则默认值是`true`,因此下面两个JSX表达式是等价的：
 
 ```html
@@ -237,8 +228,7 @@ function NumberDescriber(props) {
 
 > This behavior is just there so that it matches the behavior of HTML.
 
-<span id="spread-attributes"></span>
-## [扩展运算符传递属性](#spread-attributes)
+## [扩展运算符传递属性]
 
 如果你的`props`作为一个对象，如果在JSX中使用这个对象传递`props`，可以通过扩展运算符`...`展开props对象,下面两个组件是等价的：
 
@@ -281,13 +271,11 @@ const App = () => {
 
 ----
 
-<span id="children-in-jsx"></span>
-# [JSX中children props](#children-in-jsx)
+# [JSX中children props]
 
 JSX表达式中,除了自闭和标签外还有非自闭和标签，中间的内容通过一个特殊的prop,`props.children`。下面有几种不同的方式来传递这些props：
 
-<span id="string-literals-1"></span>
-## [字符串文本](#string-literals-1)
+## [字符串文本]
 
 你可以在标签中间放一个字符串，`props.children`将只是该字符串。这对于许多内置的HTML元素很有用，比如：
 
@@ -325,8 +313,7 @@ JSX会移除行开始和结尾的空格，同时也会删除空行。
 </div>
 ```
 
-<span id="jsx-children"></span>
-## [JSX子组件](#jsx-children)
+## [JSX子组件]
 
 同样，JSX可以将JSX组件作为子元素，这对于显示嵌套的组件很有用：
 
@@ -362,8 +349,7 @@ render() {
   ];
 }
 ```
-<span id="javascript-expressions-as-children"></span>
-## [JavaScript表达式作为子元素](#javascript-expressions-as-children)
+## [JavaScript表达式作为子元素]
 
 你可以将任意的JavaScript表达式作为Children，通过一个闭合的`{}`即可。例如，下面两个是等价的：
 
@@ -398,8 +384,7 @@ function Hello(props) {
 }
 ```
 
-<span id="functions-as-children"></span>
-## [Children传递方法](#functions-as-children)
+## [Children传递方法]
 
 通常来说，JSX中的JavaScript表达式会被转为字符串、React元素或者是其他。然而，`props.children`和其他的prop一样能够传递任何数据，而不仅仅是React能够渲染的内容。例如，如果你有一个自定义组件，你可以将其作为`props.children`的回调。
 
@@ -425,8 +410,7 @@ function ListOfTenThings() {
 传递给自定义组件的Children可以是任意的内容，只要组件能够将其转换成能够渲染的内容即可。这种用法并不常见，如果想要扩展JSX的功能，可以这样去使用。
 
 
-<span id="booleans-null-and-undefined-are-ignored"></span>
-## [Booleans,Null和Undefined会被忽略](#booleans-null-and-undefined-are-ignored)
+## [Booleans,Null和Undefined会被忽略]
 
 `false`、`null`、`undefined`和`true`都是正确的Children，他们只是不会被渲染。
 
