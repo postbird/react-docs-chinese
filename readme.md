@@ -39,18 +39,18 @@
 > [Postbird - http://www.ptbird.cn][100]
 
 [100]: http://www.ptbird.cn
-[1]: ./01-jsx-in-depth.md
-[2]: ./02-typechecking-with-proptypes.md
-[3]: ./03-refs-and-the-dom.md
-[4]: ./04-uncontrolled-components.md
-[5]: ./05-optimizing-performance.md
-[6]: ./06-react-without-es6.md
-[7]: ./07-react-without-jsx.md
-[8]: ./08-reconciliation.md
-[9]: ./09-context.md
-[10]: ./10-protals.md
-[11]: ./11-error-boundaries.md
-[12]: ./12-web-components.md
-[13]: ./13-higher-order-components.md
-[14]: ./14-integrating-with-other-libraries.md
-[15]: ./15-accessibility.md
+[1]: ./react-advanced-guide/01-jsx-in-depth.md
+[2]: ./react-advanced-guide/02-typechecking-with-proptypes.md
+[3]: ./react-advanced-guide/03-refs-and-the-dom.md
+[4]: ./react-advanced-guide/04-uncontrolled-components.md
+[5]: ./react-advanced-guide/05-optimizing-performance.md
+[6]: ./react-advanced-guide/06-react-without-es6.md
+[7]: ./react-advanced-guide/07-react-without-jsx.md
+[8]: ./react-advanced-guide/08-reconciliation.md
+[9]: ./react-advanced-guide/09-context.md
+[10]: ./react-advanced-guide/10-protals.md
+[11]: ./react-advanced-guide/11-error-boundaries.md
+[12]: ./react-advanced-guide/12-web-components.md
+[13]: ./react-advanced-guide/13-higher-order-components.md
+[14]: ./react-advanced-guide/14-integrating-with-other-libraries.md
+[15]: ./react-advanced-guide/15-accessibility.md
