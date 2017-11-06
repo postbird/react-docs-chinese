@@ -113,6 +113,7 @@ render()
 `render()` 方法应当是纯粹的，这意味着它不会修改组件的 state，每次调用时都会返回相同的结果，并且不会直接与浏览器进行交互。如果你需要和浏览器进行交互，请在 `componentDidMount()` 或者其他生命周期方法中执行。保持 `render()` 的纯粹性能够使得组件更直观。
 
 > **注意：**
+
 > 如果[shouldComponentUpdate()](#shouldcomponentupdate) 方法返回 `false`, `render()` 将不会被调用。
 
 
@@ -131,6 +132,7 @@ render() {
 ```
 
 > **注意：**
+
 > 不要忘记给每一个项目 [增加 key 属性](https://reactjs.org/docs/lists-and-keys.html#keys) 以避免 key 警告。
 
 ----
@@ -244,6 +246,7 @@ componentWillUpdate(nextProps,nextState)
 如果你需要更新 state 以响应 props 的更改，请改用 `componentWillReceiveProps()`
 
 > **注意：**
+
 > 如果 [shouldComponentUpdate()](#shouldcomponentupdate) 返回 false ，则 `componentWillUpdate()` 不会被调用。
 
 
@@ -260,6 +263,7 @@ componentDidUpdate(nextProps, nextState)
 当组件更新时，可以使用这个机会来操作 DOM。只要你将当前的 props 和 之前的 props 进行比较（例如，如果 props 没有更改，则可能不需要网络请求），这也是做网络请求的好地方。
 
 > **注意：**
+
 > 如果 [shouldComponentUpdate()](#shouldcomponentupdate) 返回 false，`componentDidUpdate()` 不会被调用。
 
 
@@ -288,6 +292,7 @@ componentDidCatch()
 更多细节，请查看 [React 16 的错误边界](#https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html)
 
 > **注意：**
+
 > 错误边界只能捕获其子树中的异常，错误边界本身的异常无法捕获。
 
 ----
