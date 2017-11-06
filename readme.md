@@ -30,7 +30,8 @@
 ### API 参考：
 
 - [01 - React 顶级API](./react-reference/01-react-api.md)
-- [01 - React.Component](./react-reference/02-react-component.md)
+- [02 - React.Component](./react-reference/02-react-component.md)
+- [03 - ReactDOM](./react-reference/03-react-dom.md)
 
 ## 声明：
 
