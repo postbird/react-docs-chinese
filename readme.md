@@ -11,21 +11,21 @@
 ## 目录：
 
 ### 高级指南部分：
-- [01 - JSX in depth][1]
-- [02 - Typechecking with proptypes][2]
-- [03 - Refs　and　the dom][3]
-- [04 - Uncontrolled　components][4]
-- [05 - Optimizing　performance][5]
-- [06 - React　without　es6][6]
-- [07 - React　without　jsx][7]
-- [08 - Reconciliation][8]
+- [01 - 深入 JSX][1]
+- [02 - 使用 PropTypes 进行类型检查][2]
+- [03 - Refs 和 DOM][3]
+- [04 - 不可控组件][4]
+- [05 - 优化性能][5]
+- [06 - 不使用 ES6 的 React][6]
+- [07 - 不使用 JSX 的 React][7]
+- [08 - Reconciliation（Diffing 算法）][8]
 - [09 - Context][9]
 - [10 - Protals][10]
-- [11 - Error boundaries][11]
-- [12 - Web Components][12]
-- [13 - Higher-Order Components][13]
-- [14 - Integrating with Other Libraries][14]
-- [15 - Accessibility][15]
+- [11 - 错误边界][11]
+- [12 - Web 组件][12]
+- [13 - 高阶组件][13]
+- [14 - 与其他库集成][14]
+- [15 - 可访问性][15]
 
 ### API 参考：
 
