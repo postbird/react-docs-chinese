@@ -57,7 +57,7 @@ ReactDOMServer.renderToStaticMarkup(element)
 
 ### renderToNodeStream()
 
-```
+```javascript
 ReactDOMSercer.renderToNodeStream(element)
 ```
 
