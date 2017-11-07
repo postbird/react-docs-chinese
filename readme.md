@@ -35,6 +35,7 @@
 - [04 - ReactDOMServer](./react-reference/04-react-dom-server.md)
 - [05 - Dom Elements](./react-reference/05-dom-elements.md)
 - [06 - Events（事件）](./react-reference/06-events.md)
+- [07 - Test Utils](./react-reference/07-test-utils.md)
 
 ## 声明：
 
