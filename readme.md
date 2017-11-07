@@ -38,6 +38,7 @@
 - [07 - Test Utils](./react-reference/07-test-utils.md)
 - [08 - Shallow Render](./react-reference/08-shallow-render.md)
 - [09 - Test Render](./react-reference/09-test-render.md)
+- [10 - JavaScript 环境依赖](./react-reference/10-javascript-environment-requirements.md)
 
 ## 声明：
 
