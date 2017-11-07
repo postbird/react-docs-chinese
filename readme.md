@@ -36,6 +36,7 @@
 - [05 - Dom Elements](./react-reference/05-dom-elements.md)
 - [06 - Events（事件）](./react-reference/06-events.md)
 - [07 - Test Utils](./react-reference/07-test-utils.md)
+- [08 - Shallow Render](./react-reference/08-shallow-render.md)
 
 ## 声明：
 
