@@ -120,7 +120,7 @@ React 一直为 DOM 提供一个以 JavaScript 为中心的 API。由于 React �
 
 React 支持的一些 DOM 属性包括：
 
-```
+```javascript
 accept acceptCharset accessKey action allowFullScreen allowTransparency alt
 async autoComplete autoFocus autoPlay capture cellPadding cellSpacing challenge
 charSet checked cite classID className colSpan cols content contentEditable
