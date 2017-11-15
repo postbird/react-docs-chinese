@@ -20,7 +20,7 @@
 - [07 - 不使用 JSX 的 React][7]
 - [08 - Reconciliation（Diffing 算法）][8]
 - [09 - Context][9]
-- [10 - Protals][10]
+- [10 - Portals][10]
 - [11 - 错误边界][11]
 - [12 - Web 组件][12]
 - [13 - 高阶组件][13]
@@ -61,7 +61,7 @@
 [7]: ./react-advanced-guide/07-react-without-jsx.md
 [8]: ./react-advanced-guide/08-reconciliation.md
 [9]: ./react-advanced-guide/09-context.md
-[10]: ./react-advanced-guide/10-protals.md
+[10]: ./react-advanced-guide/10-portals.md
 [11]: ./react-advanced-guide/11-error-boundaries.md
 [12]: ./react-advanced-guide/12-web-components.md
 [13]: ./react-advanced-guide/13-higher-order-components.md
