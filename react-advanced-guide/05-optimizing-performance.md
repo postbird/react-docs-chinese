@@ -409,8 +409,8 @@ Immutable数据结构给你提供了一种追踪对象变化的更方便的方�
 
 [1]: https://reactjs.org/docs/optimizing-performance.html
 [2]: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
-[3]: https://reactjs.org/static/d0f767f80866431ccdec18f200ca58f1-4f509.png
-[4]: https://reactjs.org/static/e434ce2f7e64f63e597edf03f4465694-4f509.png
+[3]: https://d33wubrfki0l68.cloudfront.net/f517383b3c063f4898c2a6282980cd286c169640/ef890/static/devtools-prod-d0f767f80866431ccdec18f200ca58f1-1e9b4.png
+[4]: https://d33wubrfki0l68.cloudfront.net/9be639f2ebe4eafab620d5b3be3c975e75edc5c1/3a659/static/devtools-dev-e434ce2f7e64f63e597edf03f4465694-1e9b4.png
 [5]: https://github.com/facebookincubator/create-react-app
 [6]: https://github.com/brunch/uglify-js-brunch
 [7]: https://github.com/hughsk/envify
@@ -423,7 +423,7 @@ Immutable数据结构给你提供了一种追踪对象变化的更方便的方�
 [14]: https://gist.github.com/Rich-Harris/cb14f4bc0670c47d00d191565be36bf0
 [15]: https://reactjs.org/docs/optimizing-performance.html#create-react-app
 [16]: https://webpack.js.org/guides/production-build/
-[17]: https://reactjs.org/static/64d522b74fb585f1abada9801f85fa9d-dcc89.png
+[17]: https://d33wubrfki0l68.cloudfront.net/8812e7ca893ab9aac1d8bfb9f8f07dcf3e421fb0/2a446/static/react-perf-chrome-timeline-64d522b74fb585f1abada9801f85fa9d-dcc89.png
 [18]:https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/timeline-tool
 [19]: https://developer.mozilla.org/en-US/docs/Web/API/User_Timing_API
 [20]: https://reactjs.org/static/5ee1bdf4779af06072a17b7a0654f6db-9a3ff.png
